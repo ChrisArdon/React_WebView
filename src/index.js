@@ -1,10 +1,12 @@
 import React from "react";
 import { StyleSheet, Text, View} from 'react-native';
 
+import ContentView from './ContentView';
+
 export default function App(){
     return(
         <View style={styles.container}>
-            <Text> Open up App.js to start working on your app!</Text>
+            <ContentView></ContentView>
         </View>
     );
 }
@@ -13,7 +15,6 @@ const styles = StyleSheet.create({
     container:{
         flex:1,
         backgroundColor:'#B56280',
-        alignItems:'center',
         justifyContent:'center',
     },
 });
